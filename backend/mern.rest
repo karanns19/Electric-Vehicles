@@ -1,0 +1,23 @@
+GET http://localhost:3001/users
+
+###
+
+POST http://localhost:3001/users/new 
+Content-Type: application/json
+
+{
+    "email":"karanns.aero19@gmail.com",
+    "password":"karan"
+}
+
+### 
+
+PUT http://localhost:3001/users/update/65324ba214342d9345df20aa
+Content-Type: application/json
+
+{
+    "modelName":"Vintage",
+    "modelColor":"Blue",
+    "ownerName":"Karan Singh",
+    "address":"Blue"
+}
