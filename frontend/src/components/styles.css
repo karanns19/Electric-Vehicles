@@ -1,0 +1,651 @@
+/* Login Page CSS */
+.Login{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pTag{
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 20px;
+    cursor: pointer;
+    color: #2EFF0C;
+}
+
+.pTag:hover{
+    text-decoration: underline;
+}
+
+.companyLogo{
+    transition: none;
+    height: 150px;
+}
+
+.companyLogo:hover{
+    transform: none;
+}
+
+h1{
+    color: white;
+}
+
+.base{
+    width: 700px;
+    height: 650px;
+    padding: 15px;
+    display: flex;
+    background-image: url('./assets/loginBase.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.left img{
+    margin-top: 25%;
+}
+
+.right{
+    width: 50%;
+    padding-top: 12%;
+}
+
+.right span{
+    font-size: larger;
+    font-weight: 600;
+    display: block;
+}
+
+.inputs1{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #050505;
+    border: 2px solid #2EFF0C;
+    transform: skew(-20deg);
+}
+
+.inputs2{
+    width: 360px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #050505;
+    border: 2px solid #2EFF0C;
+    transform: skew(-20deg);
+}
+
+.loginBtn{
+    width: 350px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24%;
+    background-color: #2EFF0C;
+    transform: skew(-20deg);
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.innerBtn{
+    transform: skew(20deg);
+    width: 100%;
+    text-align: center;
+}
+
+input[type="email"],[type="password"]{
+    background-color: transparent;
+    width: 200px;
+    height: 25px;
+    margin-left: 20px;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+}
+
+input:focus {
+    outline: none;
+}
+
+.outer{
+    display: flex;
+    margin-top: 9%;
+}
+
+.lock{
+    opacity: 60%;
+}
+
+.inner{
+    transform: skew(20deg);
+}
+
+.options{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.options span{
+    font-weight: 400;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.options img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* Login Page CSS */
+
+/* Home Page CSS */
+.Header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #131412;
+    background-image: url('./assets/header.png');
+    background-size: 140% 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+.leftHead{
+    width: 70%;
+    display: flex;
+    justify-content: left;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    align-items: center;
+}
+
+.leftHead span{
+    color: white;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 4px;
+    margin-left: 20px;
+    font-family: 'Koh Santepheap';
+}
+
+.rightHead{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tabs{
+    background-image: url('./assets/headerBtn.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 30px;
+    margin-top: 25px;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.links{
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.imgContainer{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 100%;
+    display: flex;
+}
+
+.cars{
+    width: 90%;
+    transition: none;
+}
+
+
+.cars:hover{
+    transform: none;
+}
+
+.imgContentBox{
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    margin-top: 3%;
+    padding: 2%;
+    height: 400px;
+    background-image: url('./assets/glass.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgContentBox1{
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    margin-top: 3%;
+    padding: 2%;
+    height: 400px;
+    background-image: url('./assets/glass2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.imgContentBox2{
+    width: 30%;
+    position: absolute;
+    right: 0%;
+    margin-top: 3%;
+    padding: 2%;
+    height: 400px;
+    background-image: url('./assets/glass3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carName{
+    color: #20F41B;
+    text-decoration: underline;
+    text-decoration-color: #20F41B;
+    text-underline-offset: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.modelName{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    font-size: 28px;
+    color: white;
+    margin-top: 8%;
+}
+.outerDown{
+    padding: 2%;
+}
+
+.downContent{
+    width: 100%;
+    height: 1500px;
+    background-image: url('./assets/layout3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.topContent{
+    display: flex;
+}
+
+.bottomContent{
+    display: flex;
+}
+
+.leftSide{
+    width: 50%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSide p{
+    word-spacing: 0.2em;
+    color: white;
+    opacity: 90%;
+    text-align: justify;
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+.rightSide1{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeImg{
+    transition: none;
+}
+
+.homeImg:hover{
+    transform: none;
+}
+
+.rightSide1 p{
+    word-spacing: 0.2em;
+    color: white;
+    opacity: 90%;
+    text-align: justify;
+    font-size: 24px;
+    margin-right: 5%;
+}
+
+.leftSide1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-image: url('./assets/footer.png');
+    background-size: 140% 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+    margin-top: 35px;
+    float: right;
+}
+
+.follow span{
+    color: white;
+    font-size: 20px;
+}
+
+.follow img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+/* Home Page CSS */
+
+/* About Page CSS */
+.about1{
+    width: 95%;
+    position: relative;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    left: -2%;
+    height: 500px;
+    background-image: url('./assets/aboutLayout.png');
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+.about2{
+    width: 95%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 7%;
+    margin-bottom: 4%;
+    height: 500px;
+    background-image: url('./assets/aboutLayout2.png');
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+}
+
+.about1 span{
+    background-color: #131412;
+    padding: 30px;
+    width: 300px;
+    position: relative;
+    left: 6%;
+    color: white;
+    width: 50%;
+    font-size: 24px;
+    margin-top: -2%;
+    text-align: justify;
+}
+
+.about1 img{
+    margin-left: 6%;
+    margin-top: -2%;
+    margin-right: 5%;
+    height: 400px;
+}
+
+.about2 span{
+    background-color: #131412;
+    padding: 30px;
+    width: 300px;
+    position: relative;
+    left: -6%;
+    color: white;
+    width: 50%;
+    font-size: 24px;
+    margin-left: 4%;
+    text-align: justify;
+}
+
+.about2 img{
+    margin-left: 4%;
+    margin-top: 2%;
+    margin-right: 5%;
+    height: 400px;
+}
+
+
+
+/* About Page CSS */
+
+/* Products Page CSS */
+.productsLayout{
+    width: 90%;
+    height: 450px;
+    padding: 22px;
+    background-image: url('./assets/productsLayout.png');
+    background-size: 100% 450px;
+    background-repeat: no-repeat;
+}
+
+.productImages{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.img1{
+    margin-left: -3px;
+}
+
+.img2{
+    margin-left: -14px;
+}
+
+.img3{
+    margin-left: -11px;
+}
+
+.productCosts{
+    display: flex;
+    justify-content: space-between;
+}
+
+.costBox{
+    color: white;
+    background-color: #141513;
+    width: 390px;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+img{
+    transition: transform 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+.order{
+    background-color: #20F41B;
+    color: black;
+    width: 45%;
+    height: 50px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.dialogBtns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.spanTag{
+    width: 50%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.spanTag1{
+    width: 50%;
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.payment{
+    margin-top: 20px;
+}
+
+.closeBtn{
+    background-color: #c0ffaa;
+    color: black;
+    width: 45%;
+    height: 50px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.dialogBox{
+    background-color: #131412;
+    border: 1px solid #2EFF0C;
+    color: white;
+}
+
+input[type="text"]{
+    background-color: transparent;
+    display: inline-block;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+select{
+    width: 60%;
+    padding: 5px;
+    background-color: #050505;
+}
+
+/* Products Page CSS */
+
+/*About Page CSS*/
+.accountContent{
+    padding:30px;
+}
+
+.accountContent h3{
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+}
+.accountContent span{
+    color: #2EFF0C;
+}
+.leftAccountTab{
+    margin-top: 20px;
+}
+.leftAccountTab h4{
+    color: white;
+    font-size: 24px;
+}
+.logout{
+    font-size: 14px;
+    color: white;
+    background-color: #050505;
+    padding: 8px 15px;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+    border: 1px solid #20F41B;
+}
+/*About Page CSS*/
+
+.eachOrder{
+    margin-top: 20px;
+    background-color: #05050577;
+    border: 1px solid #8CBF83;
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    padding: 10px;
+}
+
+.eachOrder span{
+    color: white;
+    width: 40%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+

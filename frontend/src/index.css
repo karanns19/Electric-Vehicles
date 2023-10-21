@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  background-color: #131412;
+  font-family: 'Kurale';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* CSS for Scrollbar */
+*::-webkit-scrollbar {
+  width: 3px;
+  height: 5px;
+}
+
+*::-webkit-scrollbar-button {
+  background: #222;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #2EFF0C;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #666;
+}
+
+*::-webkit-scrollbar-track {
+  background: #333;
+}
